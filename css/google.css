@@ -1,0 +1,68 @@
+html, body{ 
+	width: 100%;
+    height: 100%;
+    margin: 0; 
+    padding: 0;
+    color: #000;
+    font-size:16px;
+   	background:#E6E8E6; 
+}
+header{
+	height:70px;
+	width:100%;
+	background:#191919;
+	margin-bottom:5vh; 
+}
+.map-container{
+    height: 80vh;
+    width: 50vw;
+    margin-left:3vw;
+    float:left;	
+    position: relative;
+}
+#map {
+    box-shadow: 1px 1px 1px;   
+    height: 85vh;
+    width: 50vw;
+    margin: 0px;
+    padding: 0px;
+    border-radius:10px;
+    position: absolute;
+    z-index: 1;
+}
+/*#info{
+    z-index: 2;
+    position: absolute;
+    text-align:left;
+    font-size: 13px;
+    color:#000;
+}*/
+#insert{
+	margin:3vw;
+}
+.info-section{
+	float:left;
+	margin-left:3vw;
+	height:80vh;
+	width:40vw;
+	color:#000;
+}
+.tab-content{
+	height:100%;
+	background:#fff;
+	overflow-x:auto;
+}
+li a{
+	color:#000;
+}
+.polygonPoint{
+	float:left;	
+	width:40%;
+	/*padding-left: 15px;*/
+	margin-top:25px;
+}
+.polygonContent{
+	float:left;	
+	width:60%;
+	margin-top:25px;	
+}
